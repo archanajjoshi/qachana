@@ -24,4 +24,4 @@
   - `Kibana`
 
 **OS Perference:** `Linux`(I can adapt to any distros), `MacOS`(But I hope you support Linux distros)
-                    Current fav: Arch Linux ❤️
+  - Current fav: Arch Linux ❤️
