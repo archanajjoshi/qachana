@@ -1,4 +1,4 @@
-# qachana
+# QA-chana
 👩🏾‍🦱 How so I QA stuffs? Here are some details:
 
 **Philosophy:** Nothing is perfect, so there is always something to improve upon and I like to point out what can be improved upon when it comes to products.
