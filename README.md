@@ -17,6 +17,7 @@
   - `selenium`/`splinter` for UI automation and `request` library for api testing
     
     **Past Experience:**
+    Additionally to the tooling mentioned as my preferred tech:
     - `specflow` which is BDD tooling that is used with .NET
     - `HP UFT(QTP)` which is an object repository tool that uses VB Script for Legacy applications
 
