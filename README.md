@@ -23,11 +23,11 @@
 
 
 **📈 Performance Testing:**
-  - `Locust` for performance testing scripts which uses python
   - `Dynatrace` for the cool dashboards to monitor the performance metrics
   - `AWS Performance Insights` for Database monitoring
     
     **Past Experience:**
+    Additionally I have also used:
     - `Kibana`
 
 
