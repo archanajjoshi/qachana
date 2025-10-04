@@ -1,4 +1,4 @@
-# QA-chana: 👩🏾‍🦱 Drone view of my QA Personality 👀:
+# QA-chana:👩🏾‍🦱 Drone view of my QA Personality👀:
 
 
 **🧠 Philosophy:** Nothing is perfect, so there is always something to improve upon and I like to point out what can be improved upon when it comes to products.
@@ -15,6 +15,7 @@
   - `pytest-bdd` because behaviour driven development helps to communicate the requirements throughout departments
   - `pytest`/`python` because it makes life easy
   - `selenium`/`splinter` for UI automation and `request` library for api testing
+  - `playwright` is the new thing and I have now gained experience in this
     
     **Past Experience:**
     Additionally to the tooling mentioned as my preferred tech:
@@ -25,6 +26,7 @@
 **📈 Performance Testing:**
   - `Dynatrace` for the cool dashboards to monitor the performance metrics
   - `AWS Performance Insights` for Database monitoring
+  - `Datadog` has recently been added to my metrics monitors
     
     **Past Experience:**
     Additionally I have also used:
