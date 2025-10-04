@@ -1,4 +1,4 @@
-# QA-chana:👩🏾‍🦱 Drone view of my QA Personality👀:
+# QA-chana:👩🏾‍🦱 Drone view of my QA Personality:
 
 
 **🧠 Philosophy:** Nothing is perfect, so there is always something to improve upon and I like to point out what can be improved upon when it comes to products.
