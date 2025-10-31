@@ -2,13 +2,17 @@
 FROM python:3.11-slim
 
 # Set a working directory inside the container
-WORKDIR /app
+WORKDIR /app/playwright
 
 # Copy requirements first (for Docker layer caching)
 COPY requirements.txt .
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
+
+# Install browsers + system deps
+RUN playwright install --with-deps
+
 
 # Copy the rest of your code into the container
 COPY . .
