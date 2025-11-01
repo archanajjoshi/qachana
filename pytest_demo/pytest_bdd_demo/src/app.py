@@ -1,0 +1,1 @@
+API_URL = "https://http.dog/"
