@@ -13,8 +13,10 @@ def access_dog_api():
 
 @when(parsers.parse("I do a GET request on dog api with status code {code}"))
 def get_dog_api(code, response_data):
-    response_data["response"] = requests.get(app.API_URL, params={"code": code})
+    response = requests.get(f"{app.API_URL}/{code}.json")
+    response_data["response"] = response
 
 @then(parsers.parse("I should get a success response with status code {response_code}"))
 def verify_success_response(response_code, response_data):
-    assert response_data["response"].status_code == int(response_code)
+    data = response_data["response"].json()
+    assert data["status_code"] == int(response_code)

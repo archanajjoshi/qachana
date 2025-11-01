@@ -1,1 +1,1 @@
-API_URL = "https://http.dog/"
+API_URL = "https://http.dog"

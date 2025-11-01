@@ -6,5 +6,7 @@ Feature: Dog Code
     Then I should get a success response with status code <response_code>
       Examples:
         |code  | response_code |
+        | 100  | 100           |
         | 200  | 200           |
-        | 100  | 200           |
+        | 201  | 201           |
+        | 400  | 400           |
