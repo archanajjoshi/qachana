@@ -1,0 +1,21 @@
+name: Pytest in Docker
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build docker image
+        uses: docker build -t pytest_demo:latest .
+
+      - name: Run tests inside docker container
+        uses: docker run -it pytest_demo:latest
