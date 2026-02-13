@@ -1,6 +1,6 @@
 import pytest
 import requests
-from tests.src.app import ENDPOINT
+from src.app import ENDPOINT
 
 
 def test_list_tasks():

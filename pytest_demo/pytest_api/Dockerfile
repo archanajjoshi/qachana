@@ -2,7 +2,7 @@
 FROM python:3.11-slim
 
 # Set a working directory inside the container
-WORKDIR /app/tests
+WORKDIR /app
 
 # Copy requirements first (for Docker layer caching)
 COPY requirements.txt .
@@ -12,6 +12,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of your code into the container
 COPY . .
+
+ENV PYTHONPATH=/app
 
 # Default command: run pytest when the container starts
 CMD ["pytest", "-v"]

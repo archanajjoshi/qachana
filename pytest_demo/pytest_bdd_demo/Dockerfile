@@ -2,7 +2,7 @@
 FROM python:3.11-slim
 
 # Set a working directory inside the container
-WORKDIR /app/pytest_bdd_demo
+WORKDIR /app
 
 # Copy requirements first (for Docker layer caching)
 COPY requirements.txt .

@@ -3,12 +3,12 @@ services:
     build:
       context: ./pytest_bdd_demo
       dockerfile: Dockerfile
-    container_name: pytest_bdd_container
+    container_name: pytest_bdd_demo_container
     ports:
       - "5000:5000"
     volumes:
-      - ./pytest_bdd:/tests
-    command: sh -c "pytest -v /tests || true; tail -f /dev/null"
+      - ./pytest_bdd_demo:/app
+    command: pytest -v
 
   playwright_tests:
     build:
@@ -19,15 +19,15 @@ services:
       - "8080:8080"
     volumes:
       - ./playwright_tests:/tests
-    command: sh -c "pytest -v /tests || true; tail -f /dev/null"
+    command: pytest -v
 
   pytest_api:
     build:
-      context: ./tests
+      context: ./pytest_api
       dockerfile: Dockerfile
     container_name: pytest_api_container
     ports:
       - "3000:3000"
     volumes:
-      - ./pytest_api:/tests
-    command: sh -c "pytest -v /tests || true; tail -f /dev/null"
+      - ./pytest_api:/app
+    command: pytest -v
