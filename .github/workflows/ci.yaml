@@ -1,4 +1,4 @@
-name: Pytest in Docker
+name: Pytest-BDD in Docker
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build docker image
-        run: docker build -t pytest_demo:latest .
+        run: docker build -t pytest_demo:latest ./pytest_bdd_demo
 
       - name: Run tests inside docker container
-        run: docker run -it pytest_demo:latest
+        run: docker run pytest_demo:latest
