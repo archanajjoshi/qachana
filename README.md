@@ -1,4 +1,4 @@
-# QA-chana:👩🏾‍🦱 Drone view of my QA Personality:
+# QA-chana:👩🏾‍🦱 Drone view of my Personality:
 
 
 **🧠 Philosophy:** Nothing is perfect, so there is always something to improve upon and I like to point out what can be improved upon when it comes to products.
@@ -7,7 +7,7 @@
 **🧑🏾‍💻 Approach:** Collaboration is the key, team work yields better result. I like to establish processes where everyone can collaborate and help each other succeed. QA is a bridge between product and engineering. 
 
 
-**🔬 Testing Strategies:** Manual, Automation, Performance and Neatness around Project Management Tools
+**🔬 Testing Strategies:** Setting up QA Infra, Automation, Performance and Neatness around Project Management Tools
 
 
 **🤖 Automation Preferences:**
