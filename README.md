@@ -9,6 +9,13 @@
 
 **🔬 Testing Strategies:** Setting up QA Infra, Automation, Performance and Neatness around Project Management Tools
 
+**⚙️ Infrastructure Stuffs:**
+- `Github Actions` preferred method to setup CI pipelines
+- `Jenkins` ofcourse because it is still kicking around
+- `docker/docker-compose` for container management locally
+- `terraform` for deploying stuffs
+- Currently getting familiarized with Backstage
+  
 
 **🤖 Automation Preferences:**
   My preferred IDE is **_pycharm_** but I am teaching myself **_Vim+Nerdtree_**
