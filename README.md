@@ -14,7 +14,7 @@
 - `Jenkins` ofcourse because it is still kicking around
 - `docker/docker-compose` for container management locally
 - `terraform` for deploying stuffs
-- Currently getting familiarized with Backstage
+- Currently getting familiarized with `Backstage`
   
 
 **🤖 Automation Preferences:**
